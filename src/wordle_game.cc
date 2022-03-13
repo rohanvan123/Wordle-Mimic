@@ -8,7 +8,7 @@
 #include <chrono>
 
 WordleGame::WordleGame() {
-    words_ = CreateWordsVector("/Users/rohan_v/Documents/Projects/WordleGame/example-data/word-list.dat");
+    words_ = CreateWordsVector("/Users/rohan_v/Documents/GitHub/WorldleGame/example-data/word-list.dat");
     correct_word_ = GenerateRandomWord(words_);
 }
 
